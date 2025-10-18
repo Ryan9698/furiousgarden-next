@@ -2,6 +2,7 @@
 import { useState } from "react";
 import PlantCard from "@/components/PlantCard";
 import { PLANTS } from "@/data/mock";
+import TSDrill1 from "@/components/TSDrills1";
 
 type Cart = Record<string, number>; // skuId -> qty
 
@@ -28,6 +29,7 @@ export default function Home() {
       <pre className="mt-8 rounded-xl bg-neutral-900 p-3 text-xs text-neutral-300">
         {JSON.stringify(cart, null, 2)}
       </pre>
+      <TSDrill1 />
     </main>
   );
 }

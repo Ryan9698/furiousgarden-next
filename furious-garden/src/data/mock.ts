@@ -6,7 +6,7 @@ export const PLANTS: Plant[] = [
     slug: "venus-flytrap",
     name: "Venus Flytrap",
     tags: ["carnivorous", "indoor"],
-    summary: "Classic snap traps; great beginner plant.",
+    // summary: "Classic snap traps; great beginner plant.",
     skus: [
       { id: "sku_vft_s", size: "S", priceCents: 1299, stock: 8 },
       { id: "sku_vft_m", size: "M", priceCents: 1799, stock: 5 },
@@ -18,7 +18,7 @@ export const PLANTS: Plant[] = [
     slug: "sundew",
     name: "Sundew",
     tags: ["carnivorous", "sticky", "indoor"],
-    summary: "Glistening dew and fast growth.",
+    // summary: "Glistening dew and fast growth.",
     skus: [{ id: "sku_sd_s", size: "S", priceCents: 999, stock: 12 }],
   },
 ];
